@@ -13,13 +13,16 @@ header {
     left: 20px;
 }
 
-h1{
+.titolo{
     font-size: 70px;
+    margin-top: -1px;
 }
 
 .pragrafo1{
-    font-size: 20px;
-    color: #484f4f;
+    font-size: 22px;
+    color: gray;
+    margin-top: -50px;
+    margin-bottom:40px ;
 }
 
 span{
@@ -27,7 +30,10 @@ span{
 }
 
 .testo{
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+   
 }
 
 .evidenziato{
@@ -38,7 +44,7 @@ span{
 table{
     width: 100%;
     table-layout: fixed;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 td{
@@ -57,4 +63,31 @@ th{
 
 .tr-color{
     background-color: rgb(136, 213, 254);
+}
+
+.testo2{
+    font-size: 20px;
+    color: gray;
+    padding: 20px 0px 10px 0px;
+}
+
+
+.immagine1{
+    background: url(../img/monitor.jpg) no-repeat;
+    height: 230px;
+    position: relative;
+}
+
+.testo-immagine1{
+    font-size: 25px;
+    color: white;
+    position:absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.immagine2{
+    background: url(../img/graph.jpg) no-repeat;
+    height: 230px;
+    position: relative;
 }
