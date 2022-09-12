@@ -26,3 +26,35 @@ span{
     color:rgb(0, 166, 255)
 }
 
+.testo{
+    font-size: 30px;
+}
+
+.evidenziato{
+    background:#FFFF00;
+    color: #000000
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    font-size: 30px;
+}
+
+td{
+    text-align: center
+}
+
+
+.special-td{
+    text-align: left;
+  }
+
+th{
+    background-color: rgb(37, 179, 255);
+    color: white;
+}
+
+.tr-color{
+    background-color: rgb(136, 213, 254);
+}
